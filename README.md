@@ -9,3 +9,7 @@ install order:
 - `os161-binutils`
 - `os161-gcc`
 - `sys161`
+
+optionally:
+- `python@2`
+- `os161-gdb`

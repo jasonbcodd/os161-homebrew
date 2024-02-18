@@ -10,8 +10,8 @@ class Os161Gdb < Formula
   depends_on "python@2"
 
   patch do
-    url "https://gist.githubusercontent.com/jasonbcodd/9aae5c9c3208b77715df827f9e9a02bd/raw/ab204a2e9a650897a490ed2b61b113fdffead119/gdb.patch"
-	sha256 "d256b4a96ae300dd80c0111e2ba2926a0c8e8b3795bda547c81dfb21933df3fd"
+    url "https://raw.githubusercontent.com/jasonbcodd/os161-homebrew/main/patches/gdb.patch"
+	sha256 "8185b44b73a1b9a9c35922f665d0131d0ac0bd66b0adbfcf34706d1d42e8122b"
   end	
 	
   def install
