@@ -12,7 +12,7 @@ class Os161Gcc < Formula
   depends_on "cloog@018"
   
   patch do
-    url "https://gist.githubusercontent.com/jasonbcodd/df2441c026233eb74bf7929f2f1bdda2/raw/db2e5e2d3d43abd8505f016433d45abb012b0fb6/gcc.patch"
+    url "https://raw.githubusercontent.com/jasonbcodd/os161-homebrew/main/patches/gcc.patch"
     sha256 "f7dacadb315247e1461db8c541a6b954c6b149655ee56239b39c6b6f405692c6"
   end
 
