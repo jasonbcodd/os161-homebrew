@@ -6,9 +6,11 @@
  #include "config/host-darwin.h"
 +#include "hosthooks.h"
 +#include "hosthooks-def.h"
+
  /* Yes, this is really supposed to work.  */
  static char pch_address_space[1024*1024*1024] __attribute__((aligned (4096)));
 @@ -75,3 +77,5 @@
+
    return ret;
  }
 +
