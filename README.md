@@ -8,4 +8,4 @@ install order:
 - `cloog@018`
 - `os161-binutils`
 - `os161-gcc`
-- `sys161``
+- `sys161`
