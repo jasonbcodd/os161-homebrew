@@ -29,6 +29,7 @@ class Os161Gdb < Formula
     system "make"
     system "make", "install"
 
+    bin.install_symlink bin/"mips-harvard-os161-run" => "os161-run"
     bin.install_symlink bin/"mips-harvard-os161-gdb" => "os161-gdb"
 
     # Remove conflicting items with binutils and stock GDB.
